@@ -1,2 +1,0 @@
-// Simulación de la tasa de cambio diaria
-document.getElementById('tasa').textContent = '4.50 PEN por 1 USD';
