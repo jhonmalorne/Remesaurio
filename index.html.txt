@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remesas Bitso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Remesas Bitso</h1>
+        <p>Envío de remesas de Perú a Venezuela - Fácil, Rápido y Seguro</p>
+    </header>
+
+    <main>
+        <section id="tasa-diaria">
+            <h2>Tasa del día</h2>
+            <p>La tasa de cambio de hoy es de: <span id="tasa"></span></p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>WhatsApp: <a href="https://wa.me/1234567890">+123 456 7890</a></p>
+            <p>Correo: <a href="mailto:contacto@remesasbitso.com">contacto@remesasbitso.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Remesas Bitso. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
