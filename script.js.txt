@@ -1,21 +1,2 @@
-// Simula la obtención de la tasa diaria (puede conectarse a una API real en el futuro)
-document.addEventListener("DOMContentLoaded", function() {
-    const tasaDiaria = 4.5; // Puedes cambiar este valor o conectarlo a una API
-    document.getElementById("daily-rate").textContent = `1 USD = ${tasaDiaria} PEN`;
-});
-
-// Maneja el envío del formulario de contacto
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault(); // Evita el envío real del formulario
-
-    const nombre = document.getElementById("nombre").value;
-    const email = document.getElementById("email").value;
-    const mensaje = document.getElementById("mensaje").value;
-
-    // Simula el envío y muestra un mensaje de éxito
-    const responseMessage = document.getElementById("response-message");
-    responseMessage.textContent = `¡Gracias ${nombre}! Tu mensaje ha sido enviado con éxito.`;
-
-    // Resetea el formulario
-    document.getElementById("contact-form").reset();
-});
+// Simulación de la tasa de cambio diaria
+document.getElementById('tasa').textContent = '4.50 PEN por 1 USD';
